@@ -49,7 +49,7 @@
     },
     "adminPassword": {
       "type": "securestring",
-      "minLength": 12,
+      "minLength": 8,
       "metadata": {
         "description": "Password for the Administrator account."
       }
@@ -62,7 +62,7 @@
     },
     "svcPassword": {
       "type": "securestring",
-      "minLength": 12,
+      "minLength": 8,
       "metadata": {
         "description": "Password for the SQL Service Account."
       }
